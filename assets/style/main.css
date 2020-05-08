@@ -1,0 +1,67 @@
+/* GENERALES */
+* {
+	font-family: 'Muli', sans-serif;
+}
+
+/* BIENVENIDA */
+.home .home-hero {
+	border: 1px solid black;
+}
+.home .home-hero .header {
+	padding: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.home .home-hero .header .header-logo{
+	width: 120px;
+}
+.home .home-hero .header .header-logo img{
+	width: 100%;
+}
+.home .home-hero .header .header-menu {
+	display: flex;
+}
+.home .home-hero .header .header-menu a{
+	display: inline-block;
+	margin: 0 16px;
+	color: #495057;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	transition: all .3s;
+}
+.home .home-hero .header .header-menu a:hover{
+	color: #7048e8;
+	transition: all .3s;
+}
+
+.home .home-hero .title {
+	color: #7048e8;
+	font-weight: 800;
+	font-size: 34px;
+	margin-bottom: 16px;
+}
+.home .home-hero .subtitle {
+	color: #343a40;
+	font-weight: 400;
+	font-size: 24px;
+	margin-bottom: 16px;
+}
+.home .home-hero .cta-btn {
+	display: inline-block;
+	background-color: #7048e8;
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 20px;
+	padding: 16px 32px;
+	text-decoration: none;
+	border-radius: 40px;
+	box-shadow: 0 4px 32px rgba(112, 72, 232, .4);
+	transition: all .3s;
+}
+.home .home-hero .cta-btn:hover {
+	background-color: #5f3dc4;
+	box-shadow: 0 8px 40px rgba(112, 72, 232, .5);
+	transition: all .3s; 
+}
